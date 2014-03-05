@@ -530,6 +530,12 @@ nav {
 
 }
 
+.visualization-container .snapshot-with-test-results {
+
+    stroke: #53666f;
+
+}
+
 .visualization-container .area.snapshot.selected {
 
     stroke-width: 2;
@@ -843,8 +849,10 @@ button.delete {
 
 #snapshot-comment-form {
 
-    background-color: #f5f5f5;
     padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.05);
 
 }
 
@@ -1237,52 +1245,16 @@ table.double-list {
     margin-bottom: 12px;
     padding: 6px 15px;
     background: #fff;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 
 }
 
 #comments-container article.new {
 
-   border: 1px solid rgb(70, 136, 71);
-
-}
-
-#comments-container article.new:after {
-
-    border-color: transparent rgb(70, 136, 71);
-}
-
-#comments-container article:after {
-
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 16px 20px 0;
-    border-color: transparent #fff;
-    display: block;
-    width: 0;
-    z-index: 1;
-    left: -16px;
-    top: 27px;
-    display: block;
-
-}
-
-#comments-container article:before {
-
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 16px 20px 0;
-    border-color: transparent rgba(0, 0, 0, 0.1);
-    display: block;
-    width: 0;
-    z-index: 0;
-    left: -17px;
-    top: 27px;
+   border: 1px solid rgba(151,214,161,1);
 
 }
 
